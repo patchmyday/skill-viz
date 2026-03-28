@@ -1,0 +1,15 @@
+sources:
+  - path: ~/.claude/skills/
+    label: "Installed Skills"
+  - path: ~/Documents/cyber/agents/skills/skills/
+    label: "Official Anthropic Skills"
+
+output: ~/skill-viz-vault/
+
+categories:
+  document: ["pdf", "docx", "pptx", "xlsx"]
+  dev: ["webapp-testing", "mcp-builder", "frontend-design", "web-artifacts-builder"]
+  creative: ["canvas-design", "brand-guidelines", "slack-gif-creator", "algorithmic-art", "theme-factory"]
+  content: ["doc-coauthoring", "internal-comms"]
+  meta: ["skill-creator"]
+  api: ["claude-api"]
